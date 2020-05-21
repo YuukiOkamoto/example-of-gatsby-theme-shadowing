@@ -1,1 +1,1 @@
-# Gatsbyのテーマの使用例
+# Gatsbyのテーマのshadowing例
