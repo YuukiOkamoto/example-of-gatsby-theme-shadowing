@@ -1,10 +1,13 @@
-import React, { Fragment } from "react";
-import { Styled } from "theme-ui";
+import React from "react";
 
-export default ({author}) => (
-  <Fragment>
-    Words by <Styled.a href="http://example.com/">{author}</Styled.a>.
+export default ({ author }) => (
+  <>
+    {author}
     <br />
-    Change me. This is all quite default.
-  </Fragment>
+    ボディビル好きです。
+    <br />
+    好きなポージングは……ぜんぶです！
+    <br />
+    得意なポージングはアブドミナルアンドサイです💪
+  </>
 );
